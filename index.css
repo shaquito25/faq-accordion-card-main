@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --VeryDarkdesaturatedblue:hsl(238, 29%, 16%);
+    --softRed:hsl(14, 88%, 65%);
+    --Softviolet: hsl(273, 75%, 66%);
+    --Softblue: hsl(240, 73%, 65%);
+    --Verydarkgrayishblue: hsl(237, 12%, 33%)
+    --Darkgrayishblue: hsl(240, 6%, 50%)
+    --Lightgrayishblue: hsl(240, 5%, 91%)
+    --Fontsize: 12px
+    --Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+    --Weights: 400, 700
+    --Mobile: 375px
+    --Desktop: 1440px
+}
+
+body{
+    align-items: center;
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+main{
+    background-image: url("./images/bg-pattern-desktop.svg");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: 125vmin;
+    background-position: -110% 70%;
+    min-height: 50vh;
+    min-width: 70vw;
+}
+
+.container-card-1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 70vh;
+    position: relative;
+    left: -9.3%;
+    z-index: 1;
+}
+
+.caja_svg{
+    position: absolute;
+    left: 1%;
+    top: 38%;
+    z-index: 2;
+}
+
+.mujer_svg{
+    position: absolute ;
+    left: 4%;
+    z-index: 0;
+}
